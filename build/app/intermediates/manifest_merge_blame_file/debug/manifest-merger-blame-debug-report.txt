@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nez"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:5:1-75
+15-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:5:18-72
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:6:1-64
+16-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:6:18-61
+17
+18    <queries>
+18-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+19        <intent>
+19-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+20-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+21        </intent>
+22    </queries>
+23
+24    <application
+24-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:8:4-38:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5f663b08eec19eef9a9d1af662d9025e\core-1.6.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="web_view_plus"
+28-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:9:9-38
+29        android:usesCleartextTraffic="true" >
+29-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:10:9-44
+30        <activity
+30-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:12:9-32:20
+31            android:name="com.example.nez.MainActivity"
+31-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:13:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:17:13-163
+33            android:exported="true"
+33-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:14:13-36
+34            android:hardwareAccelerated="true"
+34-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:18:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:15:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:16:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:19:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:24:13-27:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:25:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:26:15-52
+48
+49            <intent-filter>
+49-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:28:13-31:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:29:17-68
+50-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:29:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:30:17-76
+52-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:30:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:35:9-37:33
+60            android:name="flutterEmbedding"
+60-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:36:13-44
+61            android:value="2" />
+61-->C:\Users\User\Dicom\OhifEmbedded\android\app\src\main\AndroidManifest.xml:37:13-30
+62
+63        <activity
+63-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-17:47
+64            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+64-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+65            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+65-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+66            android:theme="@style/AppTheme" />
+66-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-44
+67        <activity
+67-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-20:55
+68            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+68-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-112
+69            android:theme="@style/ThemeTransparent" />
+69-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-52
+70
+71        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+71-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-120
+71-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-117
+72
+73        <meta-data
+73-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:36
+74            android:name="io.flutter.embedded_views_preview"
+74-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-61
+75            android:value="true" />
+75-->[:flutter_inappwebview] C:\Users\User\Dicom\OhifEmbedded\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33
+76    </application>
+77
+78</manifest>
